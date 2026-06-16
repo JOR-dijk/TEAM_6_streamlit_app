@@ -303,8 +303,9 @@ def tabel(ecg_piek):
     st.info('Een Numerieke tabel om inzicht in algemene gezondheid te vergroten')
     st.table(matrix)
     with st.expander('Meer informatie over tabel'):
-        st.write('De richtlijnen van de overheid zijn als volgt;\n\n' 
-        '•Doe minstens 150 minuten per week aan matig. intensieve inspanning, zoals wandelen en fietsen, verspreid over diverse dagen. Langer, vaker en/of intensiever bewegen geeft extra gezondheidsvoordeel.\n\n'
+        st.write('In bovenstaand tabel zijn de meetgegevens numeriek vertoond, hieronder staan de richtlijnen van de overheid omtrend de streefregels voor een gezond volwassene. \n\n '
+            'De richtlijnen van de overheid zijn als volgt;\n\n' 
+            '•Doe minstens 150 minuten per week aan matig. intensieve inspanning, zoals wandelen en fietsen, verspreid over diverse dagen. Langer, vaker en/of intensiever bewegen geeft extra gezondheidsvoordeel.\n\n'
                  ' • Doe minstens tweemaal per week spier- en botversterkende activiteiten, voor ouderen gecombineerd met balansoefeningen.\n\n'
                  ' • En: voorkom veel stilzitten.'
                 )
