@@ -318,7 +318,7 @@ def tabel(ecg_piek):
 #       gemiddelde over dag (tijdslot) - hartslag zones - tijd in activiteitzones - stappen in dag
 
 def main():
-    path = r"D:\data.txt"
+    path = r"data.txt"
     data = inladen(path)
     ecg_pieks = grafiek(data)
     ecg_piek = interval(ecg_pieks)
