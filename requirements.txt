@@ -1,11 +1,6 @@
-plotly
-datetime
 streamlit
-plotly.express
-time
+plotly
 pandas
-matplotlib.pyplot
 numpy
-scipy.signal
-plotly.graph_objects
-os
+matplotlib
+scipy
