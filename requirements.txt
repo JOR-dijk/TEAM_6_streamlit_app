@@ -1,0 +1,11 @@
+plotly
+datetime
+streamlit
+plotly.express
+time
+pandas
+matplotlib.pyplot
+numpy
+scipy.signal
+plotly.graph_objects
+os
