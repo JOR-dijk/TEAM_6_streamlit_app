@@ -11,7 +11,7 @@ import streamlit as st
 import pandas as pd
 import os
 st.title("Overzicht Lifestyle Coach")
-
+st.write('Welkom bij het dashboard. Als de patiëntgegevens succesvol opgeslagen zijn kunt u hier de data koppelen en inzien. Het dashboard bevat een grafiek met keuze uit hartslag + bijbehorende zones en SMV, daarnaast bevat het dashboard een staafgrafiek voor inzicht in activiteit van de gebruiker, en een overzichtelijk tabel met aanvullende informatie met oa stappenteller. ')
 CSV_FILE = "vragen.csv"
 
 
