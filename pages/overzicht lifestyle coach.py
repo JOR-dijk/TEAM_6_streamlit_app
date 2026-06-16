@@ -228,7 +228,8 @@ def figure(ecg_piek):
     with st.expander('Meer informatie over de grafiek'):
         st.write(
         'De gemeten hartslag per piek kan erg verschillen. Daardoor wordt er in de grafiek hierboven de gemeten hartslag (bpm) getoond, met een rolling window van 50.\n'
-        'Dit betekent dat voor elk meetpunt het gemiddelde wordt genomen van 50 hartslagpunten (niet 50 seconden). Hierdoor is de getoonde lijn vlakker en makkelijker af te lezen.\n\n'
+        'Dit betekent dat voor elk meetpunt het gemiddelde wordt genomen van 50 hartslagpunten (niet 50 seconden). Hierdoor is de getoonde lijn vlakker en makkelijker af te lezen.\n'
+        'De SMV is een samengestelde vector van de X-,Y- en Z-as van de accelerometer op het apparaat, door een samengestelde vector te maken wordt de activiteit als een lijn zichtbaar in de grafiek getoond, waardoor de activiteit vergeleken kan worden met hartslag.\n\n'
         'Voor meer technische informatie:\n'
         'https://rsisinternational.org/journals/ijrsi/uploads/vol12-iss8-pg178-186-202508_pdf.pdf\n\n'
         
