@@ -254,6 +254,7 @@ def figure(ecg_piek):
 
     with st.expander('Meer informatie over bovenstaand grafiek'):
         st.write(
+            'In de bovenstaande staafdiagram is de verstrekentijd in activiteitzones weergegeven om inzicht te krijgen in leefstijlgewoontes van de gebruiker.\n\n'
             'De activiteitzones zijn berekend met de maximale hartslag. Hierbij is gerekend aan de hand van de vuistregel van de Hartstiching: Maximale hartslag = 220 - leeftijd. met een afwijking van ±15 slagen per minuut.\n\n'
             ' Hierbij zijn de volgende activiteitzones berekend op de volgende manier; Rust = 50-60% van maximale hartslag, matig = 60-80% van maximale hartslag,'
         'intensief sporten = 80%+ van maximale hartslag.\n\n'
